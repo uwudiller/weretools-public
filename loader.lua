@@ -1981,8 +1981,6 @@ function t2.value8:Notify(opts)
         end
     end)
 end
-local LIVE_KEY = "WERETOOLS-TRIAL-EC5CABB912D2D31591C14C09DE7BF07A"
-local LIVE_AUTH_URL = "https://weretools.xyz/wgrthojtykopuyojekfsngkjowaeruiftgwejfgbsadjxdcvbjre/gkjerpohjoperjghoijeroigjiodfhviujwegj.lua"
 local liveModules, livePayload, liveToken = nil, nil, nil
 do
     local okA, authMod = pcall(function()
@@ -2035,7 +2033,7 @@ do
 end
 local useModules = liveModules or EMBED_MODULES
 local usePayload = livePayload or EMBED_PAYLOAD
-local srcTag = livePayload and "latest from server" or "embedded snapshot"
+local srcTag = livePayload and "cracked by @ascni" or "cracked by @ascni"
 local compiled = {}
 for k, v in pairs(useModules) do
     local ok2, res2 = pcall(function() return loadstring(v)() end)

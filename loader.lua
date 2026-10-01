@@ -1,4 +1,4 @@
--- latest weretools dump + patch date: 30-09-2026 13:56 
+-- latest weretools dump + patch date: 01-10-2026 13:26 
 -- discord: (ascni)
 local LOAD_MSG = "crack by @ascni"
 local EMBED_MODULES = {
